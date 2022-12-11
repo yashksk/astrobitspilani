@@ -1,0 +1,20 @@
+.galleryy{
+    height: 718px;
+    width: 1512px;
+    border: 2px solid cyan;
+    bottom: 150px;
+    position: relative;
+}
+.mainslide{
+    padding: 0px;
+}
+.carousel.slider-wrapper{
+    width: 50%;
+}
+.carousel.thumb{
+    width:5%;
+    height: 50px;
+}
+.carouse{
+    text-align: center;
+}
