@@ -9,27 +9,25 @@ export default class NextJsCarousel extends Component {
             <div className = {styles.galleryy}>
               <Carousel className = {styles.mainslide}>
                   <div>
-                      <img src = {pic_1.png} height = "600px" width = "1512px"/>
+                  <img src={"/images/pic_1.png"} height = "600px" width = "1512px"/>
+                  </div>
+                  <div>
+                  <img src={"/images/pic_1.png"} height = "600px" width = "1512px"/>
                       
   
                   </div>
                   <div>
-                  <img src={pic_1.png} height = "600px" width = "1512px"/>
+                  <img src={"/images/pic_1.png"} height = "600px" width = "1512px"/>
                       
   
                   </div>
                   <div>
-                  <img src={pic_1.png} height = "600px" width = "1512px"/>
+                  <img src={"/images/pic_1.png"} height = "600px" width = "1512px"/>
                       
   
                   </div>
                   <div>
-                  <img src={pic_1.png} height = "600px" width = "1512px"/>
-                      
-  
-                  </div>
-                  <div>
-                  <img src={pic_1.png} height = "600px" width = "1512px"/>
+                  <img src={"/images/pic_1.png"} height = "600px" width = "1512px"/>
                       
   
                   </div>

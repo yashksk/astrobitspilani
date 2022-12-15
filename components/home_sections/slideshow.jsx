@@ -10,13 +10,13 @@ export default function Slideshow() {
         <Col>
         <Carousel>
           <Carousel.Item>
+            <img src={"images/pic_1.png"} />
+            </Carousel.Item>
+            <Carousel.Item>
             <img src={pic_1} />
             </Carousel.Item>
             <Carousel.Item>
-            <img src={Pic_1} />
-            </Carousel.Item>
-            <Carousel.Item>
-            <img src={Pic_1} />
+            <Image src={"/images/pic_1.png"} />
             </Carousel.Item>
             
           </Carousel>
