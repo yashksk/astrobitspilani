@@ -1,0 +1,352 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../../public/assets/fonts/Oswald-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alien Ravager";
+    src: url("../../public/assets/fonts/Alien\ Ravager.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+.outer {
+    /* height: 150vh; */
+    width: 100vw;
+    background: url("../../public/images/section2.svg") no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.change {
+    width: 110%;
+    height: 11.5vw;
+    margin-top: -1.5vw;
+    margin-left: -10%;
+
+    background: linear-gradient(180deg, #000000 46.65%, rgba(0, 0, 0, 0.616088) 108.44%);
+    filter: blur(20px);
+}
+
+.images img{
+    object-fit: cover;
+    max-height: 90vh;
+    max-width: 100vw;
+    width: auto;
+    height: auto;
+}
+
+.aboutOuter {
+    margin-top: 7.9vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.announcements {
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.1);
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 35px;
+    width: 45.63vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anounceHeading {
+    margin-top: 4.76vw;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.64vw;
+    line-height: 67%;
+    /* identical to box height, or 67% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 3.3vw;
+}
+
+.about {
+    text-align: center;
+    width: 38.62vw;
+    font-family: 'Alien Ravager';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.3vw;
+    line-height: 108%;
+    /* identical to box height */
+
+
+    color: #B0CFFF;
+
+}
+
+.scroll {
+    overflow: hidden;
+    width: 41.93vw;
+    height: 31.3vw;
+    margin-bottom: 2vw
+}
+
+.marquee {
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0% {
+        top: 100%
+    }
+
+    100% {
+        top: -270%
+    }
+}
+
+.card {
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.98vw;
+    line-height: 133%;
+    /* or 133% */
+
+
+    color: #FFFFFF;
+}
+
+.cardImg {
+    width: 34.3%;
+    margin-right: 5.2%;
+}
+
+.aboutCon {
+    margin-top: 3.04vw;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.85vw;
+    line-height: 143%;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.events {
+    margin-bottom: 9.54vw;
+    margin-top: 9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eventHead {
+    font-family: 'Alien Ravager';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.3vw;
+    line-height: 108%;
+    /* identical to box height */
+
+
+    color: #B0CFFF;
+}
+
+.eventScroll {
+    overflow: hidden;
+    width: 64.02vw;
+    margin-left: 8.8vw;
+}
+
+.eventMarquee {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-sizing: border-box;
+    animation: Eventmarquee 40s linear infinite;
+}
+
+.eventMarquee:hover {
+    animation-play-state: paused;
+}
+
+@keyframes Eventmarquee {
+    0% {
+        left: 100%
+    }
+
+    100% {
+        left: -350%
+    }
+}
+
+.eventCard {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    width: 33.8vw;
+    aspect-ratio: 1.08;
+    background: #000000;
+    border-radius: 18.0493px;
+}
+
+.eventCard img{
+    max-width: 33.8vw;
+}
+
+.eventHeading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.65vw;
+    line-height: 98%;
+    /* identical to box height, or 98% */
+
+
+    color: #FFFFFF;
+}
+
+.eventDesc {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.19vw;
+    line-height: 111%;
+    /* or 111% */
+
+
+    color: #FFFFFF;
+}
+
+.gallery {
+    font-family: 'Alien Ravager';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.34vw;
+    line-height: 108%;
+    /* identical to box height */
+
+
+    color: #B0CFFF;
+}
+
+@media only screen and (max-width: 426px) {
+    @keyframes marquee {
+        0% {
+            top: 100%
+        }
+    
+        100% {
+            top: -300%
+        }
+    }
+    @keyframes Eventmarquee {
+        0% {
+            left: 80%
+        }
+    
+        100% {
+            left: -100%
+        }
+    }
+    .outer{
+        background: url("../../public/images/backSmall2.svg") no-repeat;
+        width: 100vw;
+    }
+    .change{
+        height: 30vw;
+        margin-top: -7vw;
+        margin-left: 0
+    }
+    .aboutOuter{
+        flex-direction: column;
+    }
+    .announcements{
+        width: 82.2vw;
+    }
+    .anounceHeading{
+        font-size: 7.47vw;
+    }
+    .scroll{
+        width: 90%;
+        height: 114.4vw;
+    }
+    .marquee{
+        animation: marquee 35s linear infinite;
+    }
+    .card{
+        flex-direction: column;
+        margin-bottom: 5vw;
+        font-size: 4.37vw;
+    }
+    .cardImg{
+        width: 39.25vw;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .about{
+        margin-top: 10vw;
+        font-size: 11.2vw;
+        width: 80%;
+    }
+    .aboutCon{
+        font-size: 4.67vw;
+    }
+    .events{
+        flex-direction: column;
+    }
+    .eventHead{
+        font-size: 11.2vw;
+    }
+    .eventScroll{
+        margin-top: 5vw;
+        margin-left: 0;
+        width: 80%;
+    }
+    .eventCard{
+        margin-right: 40px;
+        width: 80vw;
+    }
+    .eventCard img{
+        max-width: 80vw;
+    }
+    .eventHeading{
+        font-size: 3.73vw;
+    }
+    .eventDesc{
+        font-size: 2.78vw;
+    }
+    .gallery{
+        font-size: 11.2vw;
+    }
+  }

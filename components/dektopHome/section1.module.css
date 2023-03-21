@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Fast Hand";
+    src: url("../../public/assets/fonts/Fast\ Hand.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
+.outer {
+    /* height: 150vh; */
+    width: 100vw;
+    background: url("../../public/images/astroBackground.svg") no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.astro {
+    margin-top: 22.5vw;
+    font-size: 8.46vw;
+    font-family: "Fast Hand";
+    font-weight: 400;
+    background: linear-gradient(92.08deg, #F5F8FE 2.4%, #6D8EBF 52.55%, #D4E3FA 99.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.bits {
+    margin-top: 10.2vw;
+    margin-bottom: 12.5vw;
+    font-family: "Fast Hand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.17vw;
+    line-height: 114%;
+
+    background: linear-gradient(92.73deg, #FFFFFF 19.05%, #AFB2B7 79.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@media only screen and (max-width: 426px) {
+    .outer{
+        background: url("../../public/images/backSmall1.svg") no-repeat;
+        width: 100vw;
+    }
+    .astro{
+        margin-top: 98.6vw;
+        font-size: 14.9vw;
+    }
+    .bits{
+        margin-top: 25vw;
+        font-size: 11.2vw;
+    }
+  }
